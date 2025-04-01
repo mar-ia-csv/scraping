@@ -12,6 +12,6 @@ def log_error(filename, message):
         log_file.write(message + "\n")
 
 def close_log(filename):
-    """Finaliza el log agregando la marca de tiempo de cierre."""
+    """Finaliza el log con la marca de tiempo de cierre."""
     with open(filename, "a", encoding="utf-8") as log_file:
         log_file.write(f"Fin: {datetime.datetime.now()}\n")

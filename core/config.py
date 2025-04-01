@@ -8,9 +8,9 @@ SELENIUM_OPTIONS = [
 ]
 
 # Configuraciones de scraping
-LIMITE_CATEGORIAS = 50      # Limita la cantidad de categorías (None para todas)
-LIMITE_PAGINAS = 3         # Número de páginas por categoría
-LIMITE_PRODUCTOS = 50      # Número de productos por página
+LIMITE_CATEGORIAS = 2      # Limita la cantidad de categorías (None para todas)
+LIMITE_PAGINAS = 1          # Número de páginas por categoría
+LIMITE_PRODUCTOS = 2      # Número de productos por página
 SHOW_FEEDBACK = True       # Mostrar mensajes de avance
 
 # URLs y paths
