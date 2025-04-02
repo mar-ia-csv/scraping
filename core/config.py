@@ -17,12 +17,12 @@ SHOW_FEEDBACK = True       # Mostrar mensajes de avance
 BASE_URL = "https://es.openfoodfacts.org"
 CATEGORIAS_URL = BASE_URL + "/facets/categorias"
 
-# Output folder
+# Output
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'output')
 
-# Ensure output directory exists
+# Asegurar que existe el directotio output
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# File paths
+# Paths
 CSV_FILENAME = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output', 'scraped_products.csv'))
 LOG_FILENAME = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output', 'errores.log'))
